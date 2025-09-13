@@ -1,1 +1,6 @@
-# Python-Credit-Card-Fraud-Detection
+# Credit-Card-Fraud-Detection
+This project presents a robust and effective solution for credit card fraud detection, tackling the critical challenge of severe class imbalance in real-world financial data. Using a massive dataset of over 1.8 million transaction records sourced from Kaggle, the project first employs sophisticated feature engineering to extract meaningful insights from raw data, creating new variables like customer age and categorizing transaction amounts and times.
+
+To overcome the inherent problem of fraudulent transactions being vastly outnumbered by legitimate ones, the project utilizes SMOTE. This powerful method balances the dataset by generating synthetic examples of the minority fraud class, creating a perfectly balanced training set and enabling the models to learn the subtle patterns of fraud without bias.
+
+A suite of powerful machine learning models was then trained on this balanced data to find the most effective classifier. A Decision Tree model achieved an impressive accuracy of 98.7%, while advanced deep learning models like a Deep Neural Network and a Tab Transformer reached 97.1% accuracy. The standout performer was the LightGBM classifier, a state-of-the-art gradient boosting model, which achieved a near-perfect accuracy of 99.5%. The exceptional performance across all models, validated by high F1-scores and near-perfect AUC scores, demonstrates the success of this approach in creating a highly reliable and accurate system for identifying and preventing credit card fraud.
